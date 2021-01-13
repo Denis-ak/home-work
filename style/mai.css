@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end reset css */
+
+
+/* header */
+
+
+
+.one{
+    overflow: hidden;
+
+}
+ ul li  {
+    float: right;
+    margin: 20px;
+ }
+
+header nav {
+    width: calc(70% - 40px);
+}
+    
+   
+
+ul {
+    float: right;
+}
+
+h1 {
+    float: left;
+    margin: 40px;
+    width: calc(30% - 40px);
+}
+header {
+    background-color: rgb(45, 48, 45);
+    
+    
+}
+
+button {
+    appearance: none;
+    background-color: rgb(85, 59, 109);
+}
+
+.seven {
+    font-size: 25px;
+    text-align: center;
+    clear: both;
+}
+.container {
+    background: grey;
+    clear: both;
+    height: 400px;
+    overflow: hidden;
+    
+}
+.word {
+    font-size: 15px;
+    text-align: center;  
+}
+.text{
+    float: left;
+    width: 30%;
+}
+form {
+    float: right;
+}
+label{
+    padding: 30px;
+}
+.email{
+    margin: 20px;
+}
+button{
+    margin-left: 218px;
+    margin-top: 164px;
+    margin: 49px;
+}
+/* header end */
+
+/* main */
+.cry {
+    overflow: hidden;
+}
+.icon {
+    overflow: hidden;
+    float: right;
+    width: 44px;
+        
+}
+.bad {
+    float: left;
+    width: 30%;
+    overflow: hidden;  
+}
+.table {
+    float: right;
+    margin: 10px;
+	
+}
+
+ .play {
+    float: left;
+    width: 705px;
+    height: 200px; 
+    margin: 10px;
+}
+.qwerty{
+    
+    margin-left: auto;
+    appearance: none;
+    background-color: rgb(85, 59, 109);
+}
+.dark {
+    overflow: hidden;
+}
+
+footer{
+    clear: both;
+    background: rgb(71, 2, 2);
+}
+
+
+
