@@ -1,58 +1,5 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/* end reset css */
-
 
 /* header */
-
-
-
 .one{
     overflow: hidden;
 
@@ -60,17 +7,26 @@ table {
  ul li  {
     float: right;
     margin: 20px;
+   
  }
 
 header nav {
     width: calc(70% - 40px);
-}
     
+}
+a {
+    text-decoration: none;
+    color: brown;
+    
+    
+}    
    
 
 ul {
     float: right;
+    
 }
+
 
 h1 {
     float: left;
@@ -86,6 +42,11 @@ header {
 button {
     appearance: none;
     background-color: rgb(85, 59, 109);
+    border-color: rgb(133, 153, 219);
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
 }
 
 .seven {
@@ -94,12 +55,14 @@ button {
     clear: both;
 }
 .container {
-    background: grey;
+
     clear: both;
     height: 400px;
     overflow: hidden;
-    
-}
+    background-image: url(../img/Nochnoy-Gorod\ \(2560x1600\).jpg);
+    background-size: cover;
+    background-position: center;
+    }
 .word {
     font-size: 15px;
     text-align: center;  
@@ -107,6 +70,8 @@ button {
 .text{
     float: left;
     width: 30%;
+    color: rgb(30, 126, 182);
+    font-family: 'Fraunces', serif;
 }
 form {
     float: right;
@@ -121,6 +86,7 @@ button{
     margin-left: 218px;
     margin-top: 164px;
     margin: 49px;
+    padding: 10px;
 }
 /* header end */
 
@@ -128,6 +94,10 @@ button{
 .cry {
     overflow: hidden;
 }
+ .bgr {
+    background-color: rgb(187, 187, 230);
+ }
+
 .icon {
     overflow: hidden;
     float: right;
@@ -137,7 +107,9 @@ button{
 .bad {
     float: left;
     width: 30%;
-    overflow: hidden;  
+    overflow: hidden;
+    font-family: 'Pacifico', cursive;
+      
 }
 .table {
     float: right;
@@ -150,6 +122,7 @@ button{
     width: 705px;
     height: 200px; 
     margin: 10px;
+    font-family: 'Pacifico', cursive;
 }
 .qwerty{
     
